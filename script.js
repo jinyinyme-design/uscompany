@@ -87,7 +87,7 @@
   document.querySelectorAll('.quote-send-btn').forEach(function (btn) {
     btn.addEventListener('click', function () {
       var method = this.getAttribute('data-method');
-      var email = form && form.getAttribute('data-email') ? form.getAttribute('data-email') : 'cijung2020@gmail.com';
+      var email = form && form.getAttribute('data-email') ? form.getAttribute('data-email') : 'cijung2022@naver.com';
       var phone = form && form.getAttribute('data-phone') ? form.getAttribute('data-phone').replace(/\D/g, '') : '01076381980';
       var kakaoUrl = form && form.getAttribute('data-kakao-url');
       var message = buildQuoteMessage();
